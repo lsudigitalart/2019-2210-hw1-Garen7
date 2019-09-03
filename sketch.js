@@ -16,7 +16,7 @@ function draw() {
   if(x>=width-40 || x<=40){
     xvelocity*=-1
   }
-  if(y>=height-40 || y<=40){
+  if(y>=height-60 || y<=30){
     yvelocity*=-1
   }
   else {
